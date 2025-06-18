@@ -26,4 +26,4 @@ COPY . .
 EXPOSE 5000
 
 # Run the main pipeline
-CMD ["python", "main.py"]
+CMD ["bash", "-c", "python main.py && tail -f /dev/null"]
