@@ -6,7 +6,7 @@ from src.logger import get_logger
 def main():
     logger = get_logger("fraud_detection")
 
-    bucket_name = "lambda-code-bucket-ddd"
+    bucket_name = "abhi100bucket1211"
     object_key = "upload/transaction_samples.csv"
 
     logger.info("Starting fraud detection pipeline...")
